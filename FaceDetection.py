@@ -4,6 +4,7 @@
 import cv2
 import mediapipe as mp
 import tkinter as tk
+import time
 from PIL import Image, ImageTk
 
 class WelcomePage:
@@ -44,6 +45,9 @@ class FaceHandDetectionApp:
 
         self.label_hand = tk.Label(window, text="Hands Detected: 0")
         self.label_hand.pack()
+        
+        self.label_fps = tk.Label(window, text= "FPS: 0")
+        self.label_fps.pack()
 
         self.btn_quit = tk.Button(window, text="Quit", width=10, command=self.quit)
         self.btn_quit.pack(anchor=tk.CENTER, expand=True)
@@ -53,14 +57,24 @@ class FaceHandDetectionApp:
         self.hand_count = 0
         self.face_cascade = face_cascade
         self.hands = mp.solutions.hands.Hands()
+        self.start_time = time.time()
+        self.frame_count = 0
         self.update()
 
         self.window.mainloop()
 
     def update(self):
         ret, frame = self.vid.read()
-
-        if ret:
+        self.frame_count += 1
+         if ret:
+            # Calculate FPS
+            elapsed_time = time.time() - self.start_time
+            if elapsed_time > 1:
+                fps = self.frame_count / elapsed_time
+                self.label_fps.config(text="FPS: {:.2f}".format(fps))
+                self.start_time = time.time()
+                self.frame_count = 0
+       
             # Convert frame to grayscale for face detection
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
