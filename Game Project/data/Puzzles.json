@@ -1,0 +1,154 @@
+[
+    {
+      "question": "What has keys but can't open locks?",
+      "choices": ["A map", "A piano", "A treasure chest"],
+      "answer": 2,
+      "reward": 50
+    },
+    {
+      "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind.",
+      "choices": ["A shadow", "An echo", "A cloud"],
+      "answer": 2,
+      "reward": 75
+    },
+    {
+      "question": "Which number comes next in the sequence: 2, 6, 12, 20, 30?",
+      "choices": ["42", "46", "44"],
+      "answer": 1,
+      "reward": 100
+    },
+    {
+      "question": "The more of this you take, the more you leave behind. What is it?",
+      "choices": ["Time", "Footsteps", "Memories"],
+      "answer": 2,
+      "reward": 60
+    },
+    {
+      "question": "Forward, I am heavy. But backward, I am not. What am I?",
+      "choices": ["A ton", "A boulder", "An elephant"],
+      "answer": 1,
+      "reward": 80
+    },{
+          "question": "What has to be broken before you can use it?",
+          "choices": ["An egg", "A lock", "A secret"],
+          "answer": 1,
+          "reward": 40
+        },
+        {
+          "question": "I'm tall when I'm young, and I'm short when I'm old. What am I?",
+          "choices": ["A shadow", "A candle", "A tree"],
+          "answer": 2,
+          "reward": 50
+        },
+        {
+          "question": "What can you catch but not throw?",
+          "choices": ["A ball", "A cold", "A fish"],
+          "answer": 2,
+          "reward": 30
+        },
+        {
+          "question": "What begins with T, ends with T, and has T in it?",
+          "choices": ["A teapot", "A tent", "A telescope"],
+          "answer": 1,
+          "reward": 45
+        },
+        {
+          "question": "What has one eye but can't see?",
+          "choices": ["A storm", "A needle", "A button"],
+          "answer": 2,
+          "reward": 35
+        },
+        {
+          "question": "The more you take, the more you leave behind. What is it?",
+          "choices": ["Footsteps", "Time", "Memories"],
+          "answer": 1,
+          "reward": 60
+        },
+        {
+          "question": "What has hands but can't clap?",
+          "choices": ["A clock", "A statue", "A robot"],
+          "answer": 1,
+          "reward": 20
+        },
+        {
+          "question": "What has a neck but no head?",
+          "choices": ["A bottle", "A shirt", "A jar"],
+          "answer": 1,
+          "reward": 55
+        },
+        {
+          "question": "What comes down but never goes up?",
+          "choices": ["Rain", "Age", "A balloon"],
+          "answer": 1,
+          "reward": 50
+        },
+        {
+          "question": "What can travel around the world while staying in the same spot?",
+          "choices": ["A stamp", "A map", "A coin"],
+          "answer": 1,
+          "reward": 70
+        },
+        {
+          "question": "What has many holes but can still hold water?",
+          "choices": ["A net", "A sponge", "A bucket"],
+          "answer": 2,
+          "reward": 45
+        },
+        {
+          "question": "What can't talk but will reply when spoken to?",
+          "choices": ["An echo", "A mirror", "A shadow"],
+          "answer": 1,
+          "reward": 75
+        },
+        {
+          "question": "I'm light as a feather, yet the strongest man can't hold me for long. What am I?",
+          "choices": ["A breath", "A cloud", "A promise"],
+          "answer": 1,
+          "reward": 65
+        },
+        {
+          "question": "What is full of holes but still holds water?",
+          "choices": ["A sponge", "A strainer", "A bucket"],
+          "answer": 1,
+          "reward": 50
+        },
+        {
+          "question": "What gets wetter the more it dries?",
+          "choices": ["A towel", "A sponge", "Rain"],
+          "answer": 1,
+          "reward": 60
+        },
+        {
+          "question": "What can run but never walks, has a bed but never sleeps?",
+          "choices": ["A river", "A dream", "A machine"],
+          "answer": 1,
+          "reward": 80
+        },
+        {
+          "question": "The more you take out of me, the bigger I get. What am I?",
+          "choices": ["A hole", "A jar", "A box"],
+          "answer": 1,
+          "reward": 40
+        },
+        {
+          "question": "What has a head, a tail, but no body?",
+          "choices": ["A snake", "A coin", "A nail"],
+          "answer": 2,
+          "reward": 30
+        },
+        {
+          "question": "What can fill a room but takes up no space?",
+          "choices": ["Light", "Air", "Music"],
+          "answer": 1,
+          "reward": 55
+        },
+        {
+          "question": "I am always hungry, I must always be fed. The finger I touch, will soon turn red. What am I?",
+          "choices": ["Fire", "A flame", "A spark"],
+          "answer": 1,
+          "reward": 85
+        }
+      
+      
+  ]
+  
